@@ -37,4 +37,42 @@
 # bool()
 
 
+# # LIST аналог масива
+# l = [1, 2, 3, 4, 5]
+# print(len(l))
 
+
+# l = [1, 2, 3, 4, 5]
+# l.insert( 4, 55)
+
+# l = [1, 2, 3, 4, 5]
+# l[7] = 555
+# print(l)
+
+
+# l = [1, 2, 3, 4, 5, 3, 3, 5, 7, 8, 9, 6, 4]
+# l2 = l.index()
+#
+# print(l2)
+# l2[0] = 100
+# print(l1, l2)
+# l2 = [8, 9, 10]
+# l.append(1)
+# # l.append(2)
+# l.insert(30, 222)
+# # pop = l.pop()
+# pop = l.pop(8)
+# l.remove(2)
+# l.extend(l2)
+# print(l.index(2, 3))
+# l.reverse()
+# l.sort(reverse=True)
+# print(l)
+# print(l.count(3))
+# copy = l.copy()
+# print(copy)
+# l1 = [1, 2, 3, 4, 2, 3, 4, 5, 6, 7, 8]
+# print(l1[::3])
+
+# l = list(range(6, 35))
+# print(l)
