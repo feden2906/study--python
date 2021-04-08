@@ -76,3 +76,23 @@
 
 # l = list(range(6, 35))
 # print(l)
+
+
+#
+
+
+# # logical operators
+# a = 4
+# b = 5
+#
+# print(a is b)
+# print(a == b)
+#
+# print(a is not b)
+# print(a != b)
+#
+# print(a > b)
+# print(a < b)
+# print(a >= b)
+# print(a <= b)
+
