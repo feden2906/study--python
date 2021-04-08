@@ -96,3 +96,28 @@
 # print(a >= b)
 # print(a <= b)
 
+
+#
+
+
+# # conditions
+# a = 4
+# b = 5
+# if a < b:
+#     print('a is biggest')
+# elif a > b:
+#     print('b is biggest')
+# elif a == b:
+#     print('a = b')
+# else:
+#     print('bad request')
+
+# a = 4
+# if {a}:
+#     print(True)
+# else:
+#     print(False)
+
+# a = 8
+# b = 6
+# print('yes') if a > b else print('no')
