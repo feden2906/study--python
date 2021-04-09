@@ -151,3 +151,26 @@
 # print(dict1.keys())
 # print(dict1)
 
+
+#
+
+
+# # Цикли
+# i = 0
+# while i < 10:
+#     print(i)
+#     i += 1
+# else:
+#     print('Finish')
+
+
+# for i in range(100):
+#     print(i, end=' - ')
+
+# dict1 = {True: [1, 2, 3], 'age': 15, 'status': False}
+# for key, value in dict1.items():
+#     print(key, value)
+
+# list1 = [12.3, 4, 6.6, 4, 2, 5, 7.5]
+# for i in list1:
+#     print(i)
