@@ -174,3 +174,6 @@
 # list1 = [12.3, 4, 6.6, 4, 2, 5, 7.5]
 # for i in list1:
 #     print(i)
+
+# print(max(list1))
+# print(min(list1))
