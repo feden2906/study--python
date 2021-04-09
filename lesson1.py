@@ -121,3 +121,33 @@
 # a = 8
 # b = 6
 # print('yes') if a > b else print('no')
+
+
+#
+
+
+# # dict
+# create
+dict1 = {True: [1, 2, 3], 'age': 15, 'status': False}
+# dict2 = dict(true=[1, 2, 3], age=15, status=False)
+
+# methods
+# print(dict1[True])
+# print(dict1.get('age', 25))
+
+# del dict1['age']
+# dict1.pop('age', None)
+
+# dict1.setdefault('age1', 25)
+
+# print(list(dict1.values()))
+# print(list(dict1.items()))
+
+# dict.fromkeys(['qwe', 'www'], 'piska')
+
+# dict1.update({'qwe': 'www', True: 3456})
+# print(dict1)
+
+# print(dict1.keys())
+# print(dict1)
+
