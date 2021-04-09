@@ -39,9 +39,9 @@
 
 
 # # # STRING # # #
-name = 'Max'
-age = 25
-weight = 75.5
+# name = 'Max'
+# age = 25
+# weight = 75.5
 #
 # string = 'Hello, my name is ' + name + ', I`m ' + str(age) + ' and my weight - ' + str(weight) + ' kg.'
 # string = 'Hello, my name is %s, I`m %d and my weight - %f kg.' % (name, age, weight)
@@ -58,7 +58,7 @@ weight = 75.5
 # print(string.title())
 # print(string.swapcase())
 
-string = '-     aaBadaafagah aDad  a - fag -ha,a a-kaFfagaah-alal'
+# string = '-     aaBadaafagah aDad  a - fag -ha,a a-kaFfagaah-alal'
 # print(string.isalpha())
 # print(string.isdigit())
 # print(string.isalnum())
