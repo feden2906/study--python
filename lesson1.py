@@ -128,7 +128,7 @@
 
 # # dict
 # create
-dict1 = {True: [1, 2, 3], 'age': 15, 'status': False}
+# dict1 = {True: [1, 2, 3], 'age': 15, 'status': False}
 # dict2 = dict(true=[1, 2, 3], age=15, status=False)
 
 # methods
