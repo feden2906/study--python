@@ -32,3 +32,24 @@
 #
 # from file_name import *       # import всього файлу пріоритетніший № 2
 
+
+#
+
+
+# # # namedtuple # # #
+from collections import namedtuple
+
+Player = namedtuple('Player', 'name age yearBorn')
+player1 = Player('Maksym', 25, 1995)
+player2 = Player('Alina', 25, 1995)
+player3 = Player('Dina', 10, 2011)
+player4 = Player('Alfred', 35, 1324)
+player5 = Player('Tamara', 88, 1932)
+
+print(player1)              # Player(name='Maksym', age=25, yearBorn=1995)
+print(player2.name)         # Alina
+print(player3.yearBorn)     # 2011
+
+
+#
+
