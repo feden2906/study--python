@@ -30,3 +30,36 @@
 #
 # function1(*list1)                 # take list item
 # function1(*dict1)                 # take dict keys
+
+
+#
+
+
+# # # closure # # #
+# x = 5
+#
+# def function2():
+#     global x
+#     x += 1
+#     print(x)
+#
+# function2()
+# print(x)
+
+# def function3():
+#     count = 0                             # не задіяна
+#
+#     def wrap1():
+#         count = 5                         # не задіяна
+#
+#         def wrap2():
+#             nonlocal count                # шукає змінну на попередньому рівні
+#             count += 1
+#             print(count)
+#
+#         return wrap2
+#     return wrap1
+#
+# function3()()()
+
+
