@@ -53,3 +53,44 @@
 
 #
 
+
+# # # CLASS # # #
+# class User(object):
+# class User:
+#     name = 'Maksym'
+#
+#     def hello(self):
+#         print(f'Hello {self.name}')
+#
+# user1 = User()
+# user2 = User()
+#
+# user1.name = 'Kokos'
+# user2.name = 'Adolf'
+#
+# print(user1.name)
+# print(user2.name)
+
+
+# class Car:
+#     def __init__(self, brand, model, year):
+#         self.brand = brand
+#         self.model = model
+#         self.year = year
+#
+#     def __str__(self):
+#         return f'{self.brand} -- {self.model} -- {self.year}'
+#
+#     def __repr__(self):
+#         return f'{self.brand} -- {self.model} -- {self.year}'
+#
+#     def get_model(self, location):
+#         return f'Автомобіль {self.model} знаходиться в місті {location}.'
+#
+# car = Car('BMW', 'X6', 2015)
+# print(car)
+# print(car.get_model('Madrid'))
+#
+# list = [Car('BMW', 'X6', 2015), Car('Audi', 'A6', 2010)]
+# print(list)
+
