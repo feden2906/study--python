@@ -24,5 +24,11 @@
 # print(function(**dict1))
 
 
+#
 
+
+# # # IMPORT # # #
+# import file_name as ll        # import всього файлу пріоритетніший № 1
+#
+# from file_name import *       # import всього файлу пріоритетніший № 2
 
