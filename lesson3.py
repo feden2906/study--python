@@ -79,3 +79,59 @@
 # print(event())
 # print(event())
 # print(event())
+
+
+#
+
+
+# # # decorator # # #
+# def greeting():
+#     print('Hello world')
+#
+# def decor(func):
+#     print('------------------------')
+#     func()
+#     print('------------------------')
+#
+# decor(greeting)
+
+
+# def decor1(func):
+#     def wrapper():
+#         print('------------------------')
+#         func()
+#         print('------------------------')
+#     return wrapper
+#
+# def decor2(func):
+#     def wrapper():
+#         print('************************')
+#         func()
+#         print('************************')
+#     return wrapper
+#
+# @decor1
+# @decor2
+# def greeting():
+#     print('Hello world')
+#
+# greeting()
+
+
+# def decor1(func):
+#     def wrapper(*args, **kwargs):
+#         print('******************************************************')
+#         func(*args, **kwargs)
+#         print('******************************************************')
+#     return wrapper
+#
+#
+# @decor1
+# def greeting(name, age, weight):
+#     print(f'Hello {name}, you have {age} years. Your weight - {weight} kg')
+#
+#
+# greeting('Maksym', 25, 75.5)
+
+
+#
