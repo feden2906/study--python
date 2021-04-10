@@ -135,3 +135,21 @@
 
 
 #
+
+
+# # # lambda # # #
+# func = lambda a, b: a + b
+# print(func(1, 2))
+
+# list1 = list(map(len, ['cat', 'maksym', 'avadakidavra']))
+# print(list1)
+
+# list4 = [1, 2, 3, 4, 5, 3, 2, 1, 3, 0, 4, 3, 2, 1]
+# list2 = list(map(lambda a: a if a > 2 else None, list4))
+# list2 = [a if a > 2 else None for a in list4]
+# print(list2)
+
+# list4 = ['cat', 'maksymo', 'cet', 'avadakidavroa']
+# list2 = list(filter(lambda a: 'o' in a, list4))
+# list2 = [a if 'o' in a else None for a in list4]
+# print(list2)
