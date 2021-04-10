@@ -10,3 +10,23 @@
 
 #
 
+
+# # # function # # #
+# def hello_world():
+#     print('Hello world')
+#
+# hello_world()
+
+# def hello_world(a, b, *args, **kwargs):
+#     print(a, b, args, kwargs)
+#
+# hello_world(1, 2, 3, 4, 5, name='Maks')
+
+# list1 = [1, 2, 3]
+# dict1 = {'name': 'Maks', 'age': 13, 'gender': 'male'}
+#
+# def function1(a, b, c):
+#     print(a, b, c)
+#
+# function1(*list1)                 # take list item
+# function1(*dict1)                 # take dict keys
