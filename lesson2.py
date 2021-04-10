@@ -83,3 +83,23 @@
 
 #
 
+
+# # # list comprehension # # #
+# list1 = [i * 2 for i in range(10) if i % 2 == 0]
+# print(list1)
+
+# list2 = [[1, 2, 3, 4, 5], [4, 5, 6, 7, 5, 3, 2, 9]]
+# newList = [i for j in list2 for i in j]
+# print(newList)
+
+# list3 = [1, 2, 3, 4, 5, 4, 5, 6, 7, 5, 3, 2, 9]
+# newList = ['even' if i % 2 == 0 else 'odd' for i in list3]
+# print(newList)
+
+# dict1 = {'NaMe': 'Maksym', 'aGe': 25}
+# dict2 = {k.lower(): v for k, v in dict1.items()}
+# print(dict2)
+
+# list4 = [1, 2, 3, 4, 5, 4, 5, 6, 7, 5, 3, 2, 9]
+# set1 = {i for i in list4}
+# print(set1)
