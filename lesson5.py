@@ -132,3 +132,52 @@
 
 #
 
+
+# # # abstract basic class # # #
+from abc import ABC, abstractmethod
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        print('Area', end=': ')
+
+    @abstractmethod
+    def perimetr(self):
+        print('Perimetr', end=': ')
+
+
+class Rectangle(Shape):
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def area(self):
+        super().area()
+        return self.a * self.b
+
+    def perimetr(self):
+        super().perimetr()
+        return (self.a + self.b) * 2
+
+
+class Triangle(Shape):
+    def __init__(self, a, b, c):
+        self.a = a
+        self.b = b
+        self.c = c
+
+    def area(self):
+        super().area()
+        p = (self.a + self.b + self.c) / 2
+        return pow(p * (p - self.a) * (p - self.b) * (p - self.c), 0.5)
+
+    def perimetr(self):
+        super().perimetr()
+        return self.a + self.b + self.c
+
+
+shapes = [Rectangle(2, 4), Triangle(3, 3, 3), Triangle(1, 1, 1)]
+
+for shape in shapes:
+    print(shape.area())
+    print(shape.perimetr())
+
