@@ -133,3 +133,20 @@
 
 #
 
+
+# # # Численне наслідування # # #
+# class Car:
+#     def driving(self):
+#         print('driving')
+#
+# class Boat:
+#     def swimming(self):
+#         print('swimming')
+#
+# class Amfibia(Car, Boat):
+#     pass
+#
+#
+# amfibia1 = Amfibia()
+# amfibia1.driving()
+# amfibia1.swimming()
