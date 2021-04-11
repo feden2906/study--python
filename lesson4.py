@@ -94,3 +94,42 @@
 # list = [Car('BMW', 'X6', 2015), Car('Audi', 'A6', 2010)]
 # print(list)
 
+
+#
+
+
+# # # Наслідування # # #
+# class Car:
+#     def __init__(self, brand, model, year):
+#         self.brand = brand
+#         self.model = model
+#         self.year = year
+#
+#     def __str__(self):
+#         return f'{self.brand} -- {self.model} -- {self.year}'
+#
+#     def __repr__(self):
+#         return f'{self.brand} -- {self.model} -- {self.year}'
+#
+#     def get_model(self, location):
+#         return f'Автомобіль {self.model} знаходиться в місті {location}.'
+#
+#
+# class ElectroCar(Car):
+#     def __init__(self, brand, model, year, acuma, charge):
+#         super().__init__(brand, model, year)
+#         self.acuma = acuma
+#         self.charge = charge
+#
+#     def __str__(self):
+#         return f'{self.brand} -- {self.model} -- {self.year} -- {self.acuma} -- {self.charge}'
+#
+#     def __repr__(self):
+#         return f'{self.brand} -- {self.model} -- {self.year} -- {self.acuma} -- {self.charge}'
+#
+# tesla = ElectroCar('Tesla', 's3', 2018, '200000A', 'QuickCharge5')
+# print(tesla)
+
+
+#
+
