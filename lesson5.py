@@ -204,3 +204,21 @@
 
 #
 
+
+# # # @staticmethod # # #
+# class User:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#     def __str__(self):
+#         return f'{self.__dict__}'
+#
+#     @staticmethod
+#     def greeting(n):                             # приймає змінну зовні
+#         return f'Hello {n}'
+#
+# print(User.greeting('Maksym'))
+
+
+#
