@@ -222,3 +222,35 @@
 
 
 #
+
+
+# # # overload # # #
+# class User:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#     def __str__(self):
+#         return f'{self.__dict__}'
+#
+#     def __str__(self):                         # показує стрічкову репрезентацію ітерованих об'єктів
+#         return f'{self.__dict__}'
+#
+#     def __len__(self):                         # перевизначаємо базовий метод 'len'
+#         # return len(self.name)
+#         return 'виведе при використанні "len"'
+#
+#     def __add__(self, other):                  # перевизначаємо додавання 2-х екземплярів класу // user1 + user2
+#         return self.age + other.age
+#
+#     def __sub__(self, other):                  # перевизначаємо віднімання 2-х екземплярів класу // user1 - user2
+#         return self.age - other.age
+#
+#     def __gt__(self, other):                   # перевизначаємо > 2-х екземплярів класу // user1 > user2
+#         return self.age > other.age
+#
+#     def __lt__(self, other):                   # перевизначаємо < 2-х екземплярів класу // user1 < user2
+#         return self.age < other.age
+#
+#     def __eq__(self, other):                   # перевизначаємо == 2-х екземплярів класу // user1 == user2
+#         return self.age == other.age
