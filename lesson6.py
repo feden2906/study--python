@@ -41,3 +41,14 @@
 # print(file)
 
 
+# # # write files # # #
+# import os
+# file_path = os.path.join('lesson6', 'lesson6.text.txt')
+#
+# file = open(file=file_path, mode='w')            # завантажуємо в пам'ять якусь сутність
+# file.write('Fedenko Maksym\n')
+#
+# l = ['cat\n', 'dog\n', 'goose\n']
+# file.writelines(l)
+#
+# file.close()
