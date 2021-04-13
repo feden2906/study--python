@@ -52,3 +52,16 @@
 # file.writelines(l)
 #
 # file.close()
+
+
+# # # append files # # #
+# import os
+# file_path = os.path.join('lesson6', 'lesson6.text.txt')
+#
+# file = open(file=file_path, mode='a')            # завантажуємо в пам'ять якусь сутність
+# file.write('Fedenko Maksym\n')                   # додає в кінці файлу
+#
+# l = ['cat\n', 'dog\n', 'goose\n']
+# file.writelines(l)                               # додає в кінці файлу
+#
+# file.close()
