@@ -65,3 +65,11 @@
 # file.writelines(l)                               # додає в кінці файлу
 #
 # file.close()
+
+
+# # # конструкція яка автоматично закриває файл # # #
+# import os
+# file_path = os.path.join('lesson6', 'lesson6.text.txt')
+#
+# with open(file=file_path, mode='r') as file:                # за блоком with автоватично закривається файл
+#     print(file.read())
