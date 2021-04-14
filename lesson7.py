@@ -84,3 +84,24 @@
 #
 # перевірку типів робимо командою - mypy lesson7.py
 # попередньо mypy встановлене в venv
+
+
+#
+
+
+# # # Thread (багатопоточність) # # #
+# from threading import Thread
+# import time
+# import random
+#
+# def star_tread(index: int):
+#     time1 = time.strftime("%H:%M:%S", time.gmtime())
+#     print(f'Thread [{index}] running on {time1}')
+#     time.sleep(random.randint(1, 8))
+#     time2 = time.strftime("%H:%M:%S", time.gmtime())
+#     print(f'Thread [{index}] stopped at {time2}')
+#
+# for i in range(1000):
+#     thread = Thread(target=star_tread, args=(i,))
+#     thread.start()
+
