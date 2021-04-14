@@ -73,3 +73,38 @@
 #
 # with open(file=file_path, mode='r') as file:                # за блоком with автоватично закривається файл
 #     print(file.read())
+
+
+#
+
+
+# # # generators # # #
+# list1 = [i for i in range(100000000000)]                    # приклад використання (процес помирає бо недостатньо ОЗУ)
+
+
+# gen = (i for i in range(100000000000000000000))             # перебор по одному
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+
+
+# gen = (i for i in range(100000000000000000000))             # перебор циклом
+# for i in gen:
+#     print(i)
+
+
+# def gen(num):                                               # кастомний генератор
+#     print('start')
+#     while num >= 0:
+#         yield num                                           # Якщо є "yield", то ця функція генератор
+#         num -= 1
+#
+# g = gen(5)
+# print(next(g))
+# print(next(g))
+# print(next(g))
+# print(next(g))
+
+# for i in gen:
+#     print(i)
+
