@@ -108,3 +108,27 @@
 # for i in gen:
 #     print(i)
 
+
+#
+
+
+# import os
+# file_path = os.path.join('lesson6', 'lesson6.text.txt')
+#
+#
+# def filter_lines(path, substring):
+#     try:
+#         with open(file=path, mode='r') as file:
+#             for line in file:
+#                 if line.find(substring) != -1:
+#                     yield line
+#
+#     except FileNotFoundError as err:
+#         print(err)
+#
+#
+# gen = filter_lines(file_path, 'o')
+#
+# for line in gen:
+#     print(line.rstrip())
+
